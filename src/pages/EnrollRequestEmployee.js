@@ -8,7 +8,7 @@ const EnrollRequestEmployee = () => {
       <NavBar></NavBar>
       <div className="container">
         <div className="form-control mt-3 bg-dark text-white">
-          Allocate Chapters
+          Other department Chapters
         </div>
         <br></br> <br></br>
         <table className="table">
