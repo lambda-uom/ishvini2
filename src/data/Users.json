@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+       
+        "department": "IT",
+        "jobtitle":"Software engineer",
+        "chapter":"React",
+        "createdBy":"A2121"
+    },
+    {
+        "id": 2,
+        "department": "Finance",
+        "jobtitle":"Accountant",
+        "chapter":"Financial Accounting",
+        "createdBy":"A2212"
+    },
+    
+    {
+        "id": 3,
+        "department": "Operations",
+        "jobtitle":"Operational manager",
+        "chapter":"Quality management",
+        "createdBy":"A1121" 
+      
+    },
+    
+    {
+        "id": 4,
+        "department": "Human Resource",
+        "jobtitle":"HR manager",
+        "chapter":"Recruitment",
+        "createdBy":"A4321"
+        
+    }]
+    

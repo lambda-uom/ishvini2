@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1234Y",
+       "name":"Humill mirin",  
+        "jobtitle":"Accountant",
+        "chapter":"React"
+       
+    },
+    {
+        "id": "1123U",
+        "name": "Nelli mirror",
+        "jobtitle":"Backend developer",
+        "chapter":"Financial Accounting"
+   
+    },
+    
+    {
+        "id": "1236T",
+        "name": "Kerney samuvel",
+        "jobtitle":"UI/UX designer",
+        "chapter":"Quality management"
+      
+      
+    }
+]
+    
