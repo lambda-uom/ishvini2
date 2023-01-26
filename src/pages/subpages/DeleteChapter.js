@@ -24,9 +24,7 @@ const DeleteChapter = () => {
 
   return (
     <div className="container">
-      <div className="form-control mt-3 bg-dark text-white">
-        Delete Department
-      </div>
+      <div className="form-control mt-3 bg-dark text-white">Delete chapter</div>
       <div className="columns mt-5">
         <form name="myForm" onSubmit={deletemsg}>
           <div className="field">
