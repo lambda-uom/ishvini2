@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import users from "../data/Users.json";
+import { Link } from "react-router-dom";
 const Chapter = () => {
   return (
     <React.Fragment>
@@ -8,9 +9,9 @@ const Chapter = () => {
       <div className="container">
         <div className="form-control mt-3 bg-dark text-white">Chapters</div>
         <br></br>
-        <button className="btn btn-outline-success form-control ">
-          Add New Chapters
-        </button>
+        <Link to="/newchap" className="btn btn-outline-success form-control">
+          Add New Chapter
+        </Link>
         <br></br> <br></br>
         <table className="table">
           <thead>
@@ -36,20 +37,20 @@ const Chapter = () => {
                     <td>{item.department}</td>
 
                     <td>
-                      <button
-                        type="button"
+                      <Link
+                        to="/editchap"
                         className="btn btn-outline-primary form-control"
                       >
                         Edit
-                      </button>
+                      </Link>
                     </td>
                     <td>
-                      <button
-                        type="button"
+                      <Link
+                        to="/deletechap"
                         className="btn btn-outline-danger form-control"
                       >
                         Delete
-                      </button>
+                      </Link>
                     </td>
                   </tr>
                 </>

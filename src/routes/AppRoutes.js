@@ -18,6 +18,9 @@ import PermanentDeleteChapter from "../pages/PermanentDeleteChapter";
 import AddJobtitle from "../pages/subpages/AddJobtitle";
 import EditJobtitle from "../pages/subpages/EditJobtitle";
 import DeleteJobtitle from "../pages/subpages/DeleteJobtitle";
+import AddChapter from "../pages/subpages/AddChapter";
+import EditChapter from "../pages/subpages/EditChapter";
+import DeleteChapter from "../pages/subpages/DeleteChapter";
 const AppRoutes = () => {
   return (
     <BrowserRouter>
@@ -53,6 +56,9 @@ const AppRoutes = () => {
         <Route exact path="/newjob/" element={<AddJobtitle />} />
         <Route exact path="/editjob/" element={<EditJobtitle />} />
         <Route exact path="/deletejob/" element={<DeleteJobtitle />} />
+        <Route exact path="/newchap/" element={<AddChapter />} />
+        <Route exact path="/editchap/" element={<EditChapter />} />
+        <Route exact path="/deletechap/" element={<DeleteChapter />} />
       </Routes>
     </BrowserRouter>
   );

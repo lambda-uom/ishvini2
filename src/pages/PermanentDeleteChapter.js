@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import users from "../data/Users.json";
+import { Link } from "react-router-dom";
 const PermanentDeleteChapter = () => {
   return (
     <React.Fragment>
@@ -34,12 +35,12 @@ const PermanentDeleteChapter = () => {
                     <td>{item.department}</td>
 
                     <td>
-                      <button
-                        type="button"
+                      <Link
+                        to="/deletechap"
                         className="btn btn-outline-danger form-control"
                       >
                         Delete
-                      </button>
+                      </Link>
                     </td>
                   </tr>
                 </>

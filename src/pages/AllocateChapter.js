@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import users from "../data/Users.json";
+import { Link } from "react-router-dom";
 const AllocateChapter = () => {
   return (
     <React.Fragment>
@@ -28,9 +29,12 @@ const AllocateChapter = () => {
                     <td>{item.jobtitle}</td>
 
                     <td>
-                      <button type="button" className="btn btn-primary ">
-                        Add chapters
-                      </button>
+                      <Link
+                        to="/editallocatechapter"
+                        className="btn btn-primary mr-1"
+                      >
+                        Add Chapters
+                      </Link>
                     </td>
                   </tr>
                 </>
